@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hasta las Muelas</title>
+    <meta name="description" content="Drinking Game de StrangeBox">
+    <link href="./normalize.css" rel="stylesheet" type="text/css" />
+    <link href="./estilo.css" rel="stylesheet" type="text/css" />
+    <link rel="icon" type="image/png" href="./icon.png">
+
+
+<!-- webapp -->
+
+<meta name="theme-color" content="#7540A3">
+<meta name="MobileOptimized" content="width">
+<meta name="HandheldFriendly" content="true">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<link rel="shortcut icon" type="image/png" href="./icon.png">
+<link rel="apple-touch-icon" href="./icon.png">
+<link rel="apple-touch-startup-image" href="./icon.png">
+<link rel="manifest" href="./manifest.json">
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-7NKVHL5Y5M"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-7NKVHL5Y5M');
+</script>
+
+
+</head>
+<body>
+
+<!-- AAAh, So' curioso! -->
+<div id="contenedormaestro">
+    
+    <div id="containerprincipal">
+        <button id="boton-pantalla" data-toggle-fullscreen>↖↗ <br> ↙↘</button>
+        <div id="titulos">
+            <h3>🍺 Drinking Game 🍻</h3> 
+            <h1>Hasta las Muelas </h1>
+            
+        </div>               
+        <div id="contenedordevisor"><span id="Visor">Holis</span></div>
+        
+        
+        
+        <div id="botonera">
+            <input type = "button" id = "botonJugar" class="nomostrar" value = "Jugar" >
+            <input type = "button" id = "botonVolver" class="nomostrar" value = "Volver" >
+        </div>
+    </div>
+    <div id="slider">    
+        <div id="disclaimer">--- BEBA CON MODERACIÓN  -  ESTÁ PROHIBIDA LA VENTA DE BEBIDAS ALCOHÓLICAS A MENORES DE 18 AÑOS ---</div>
+    </div>
+    <div id="containersecundario">        
+        <h2>👤 Jugadores 👥</h2>
+        <div id = "Participantes" class="mostrar">
+            <label for="jugadores">Añadir Jugadores:</label>
+            <form action="#" id="formulario">
+                <label for="jugadores"></label>
+                <input type="text" id="jugadores" name="player" value="" >
+            </form>
+        </div>       
+        <input id= "botonAgregar" type="submit" class="mostrar" value="Agregar"  > 
+        <ul id= "lista-jugadores"></ul>    
+    </div>
+    <!-- <div id="autores"> 
+            Hecho por <a target="blank" href="https://www.instagram.com/Maruco_Mass"><strong>@</strong>Maruco_Mass</a> <strong>&</strong>  <a target="blank" href="https://www.instagram.com/guillermo_rubiolo/"><strong>@</strong>Guillermo_Rubiolo</a> en <a href="/index.html">StrangeBox</a>
+    </div> -->
+
+    
+</div> 
+
+<hr>
+<footer>
+    Hecho por <a target="blank" href="https://www.instagram.com/Maruco_Mass"><strong>@</strong>Maruco_Mass</a> <strong>&</strong>  <a target="blank" href="https://www.instagram.com/guillermo_rubiolo/"><strong>@</strong>Guillermo_Rubiolo</a> en <a href="/index.html">StrangeBox</a>
+</footer>
+<hr>
+
+<script src="./script.js" type="module"></script>
+
+</body>
+
+</html>
+
